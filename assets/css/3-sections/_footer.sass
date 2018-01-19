@@ -1,0 +1,34 @@
+section.footer
+  .col-2
+    margin: auto
+    p
+      text-align: center
+      padding-top: 92px
+
+.heart
+  +hide-text
+  max-width: 26px
+  height: 23px
+  margin: auto
+  background:
+    image: url(/assets/img/heart.svg)
+    repeat: no-repeat
+
+@media (max-width: 1050px)
+  .main-content
+    section.footer
+      padding-top: 0
+      padding-bottom: 20px
+
+@media (max-width: 640px)
+  .linkedin, .behance
+    padding-bottom: 50px
+    margin: auto
+
+  .main-content
+    section.footer
+      .col-2 p
+        padding-top: 40px
+
+  .heart
+    margin-top: 20px

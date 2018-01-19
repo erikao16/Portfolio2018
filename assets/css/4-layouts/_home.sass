@@ -1,0 +1,86 @@
+.site-wrap
+  display: flex
+  flex-direction: column
+  max-width: 1050px
+  margin: auto
+
+.site-nav
+  width: 100%
+  border-bottom: 1px solid #d7d7d7
+  z-index: 150
+  position: relative
+  top: 111px
+  background: white
+  margin-bottom: -42px
+
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    display: flex
+    justify-content: center
+
+  li
+    padding: 10px
+
+.site-nav-scrolled
+  position: fixed
+  top: 0
+  max-width: 1050px
+
+.main-content
+  position: relative
+  background: white
+  top: 140px
+
+
+  section
+    padding: 50px 0
+
+  .flex
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+// columns
+.col-1
+  max-width: 300px
+  margin: 0 10px
+  display: flex
+  flex-direction: column
+
+.col-2
+  max-width: 620px
+  margin: 0 10px
+
+.col-849
+  max-width: 849px
+  margin: auto
+
+@media (max-width: 640px)
+  .site-wrap.is-open
+    margin-right: 140px
+
+  .site-wrap
+    display: block
+    transition: margin-right .5s
+    //transition: all 0.3s ease-in-out
+
+    .site-nav
+      display: none
+
+    .main-content
+      top: 101px
+
+  .main-content .flex
+    display: block
+
+  p
+    margin: auto
+  .col-1
+    margin: auto
+
+// typography
+p
+  font-size: 18px
+  text-align: center

@@ -1,0 +1,116 @@
+section.project1-page
+  p
+    font-size: 14px
+    text-align: left
+
+  .col-1
+    display: flex
+    align-items: center
+
+  .blurb
+    font-style: italic
+    text-align: center
+
+h1.big
+  text-align: center
+
+h1.onboarding
+  +hide-text
+  max-width: 620px
+  height: 200px
+  margin: 0
+  background:
+    image: url(/assets/img/onboarding.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.fiveviews
+  +hide-text
+  max-width: 500px
+  height: 375px
+  margin: 0
+  background:
+    image: url(/assets/img/fivescreens.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+p.fiveviews
+  margin-top: 10px
+
+.userflow
+  +hide-text
+  max-width: 300px
+  height: 225px
+  margin-top: 0
+  background:
+    image: url(/assets/img/UserFlow.png)
+    position: center
+    repeat: no-repeat
+    size: contain
+
+h1.dash-gif
+  +hide-text
+  max-width: 275px
+  height: 480px
+  background:
+    image: url(/assets/img/dash.gif)
+    position: center
+    repeat: no-repeat
+    size: contain
+
+p.dash-gif
+  margin-top: 200px
+
+h1.message-box
+  +hide-text
+  max-width: 300px
+  height: 200px
+  background:
+    image: url(/assets/img/messagebox.png)
+    position: center
+    repeat: no-repeat
+    size: contain
+
+p.message-box
+  margin-top: 50px
+
+h1.finalscreens
+  +hide-text
+  height: 400px
+  margin-bottom: 10px
+  background:
+    image: url(/assets/img/threescreens.png)
+    position: center
+    repeat: no-repeat
+    size: contain
+
+@media (max-width: 760px)
+  h1.fiveviews
+    max-width: 400px
+    height: 330px
+
+@media (max-width: 640px)
+  p.blurb
+    margin-bottom: 15px
+
+  .userflow
+    margin-top: 20px
+
+  h1.fiveviews
+    margin-top: 30px
+    margin-left: auto
+    margin-right: auto
+
+  .userflow
+    margin-bottom: 0
+
+  h1.dash-gif
+    margin-bottom: 10px
+
+  p.dash-gif
+    margin-top: 10px
+
+  p.message-box
+    margin-top: 10px
