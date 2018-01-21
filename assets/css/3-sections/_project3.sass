@@ -1,0 +1,131 @@
+section.project3-page
+  p
+    font-size: 14px
+    text-align: left
+
+  .col-1
+    display: flex
+    align-items: center
+
+  .blurb
+    font-style: italic
+    text-align: center
+
+  iframe
+    display: block
+
+  p.vimeo
+    margin-top: 10px
+    text-align: center
+
+  p.prototype
+    margin-top: 100px
+
+h1.bc-mac
+  +hide-text
+  max-width: 640px
+  height: 350px
+  margin-top: 0
+  background:
+    image: url(/assets/img/bc-mac.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.persona1
+  +hide-text
+  max-width: 300px
+  height: 200px
+  margin-top: 0
+  background:
+    image: url(/assets/img/persona.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.persona2
+  +hide-text
+  max-width: 300px
+  height: 200px
+  margin-top: 0
+  background:
+    image: url(/assets/img/persona2.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.styleguide
+  +hide-text
+  height: 350px
+  margin-top: 0
+  margin-bottom: 10px
+  background:
+    image: url(/assets/img/styleguide.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.sitemap
+  +hide-text
+  max-width: 300px
+  height: 200px
+  margin-top: 0
+  margin-bottom: 10px
+  background:
+    image: url(/assets/img/sitemap.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+.flex.sitemap
+  margin-top: 10px
+  margin-bottom: 10px
+
+h1.wireframes
+  +hide-text
+  max-width: 300px
+  height: 200px
+  margin: 0
+  background:
+    image: url(/assets/img/wireframes.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+p.wireframes
+  padding-top: 20px
+
+h1.mockups
+  +hide-text
+  height: 400px
+  margin-bottom: 10px
+  background:
+    image: url(/assets/img/mockups.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+@media (max-width: 640px)
+  h1.bc-mac
+    height: 300px
+
+  h1.persona1
+    margin-top: 20px
+
+  h1.styleguide
+    margin-top: 20px
+
+  h1.wireframes
+    margin-bottom: 0
+
+  section.project3-page
+    p.wireframes
+      margin-top: 0
+      text-align: center
+
+    p.mockups
+      text-align: center
+
+    p.prototype
+      margin-top: 0
+      text-align: center

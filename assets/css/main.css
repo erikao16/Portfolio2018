@@ -568,7 +568,18 @@ section.project3 a.cover {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .site-wrap header.is-open {
+    margin-right: 141px;
+    width: auto;
+    right: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
   .site-wrap header .logo {
     overflow: hidden;
     text-indent: 101%;
@@ -647,6 +658,14 @@ section.project3 a.cover {
   .mobile-nav li {
     text-align: right;
     margin-bottom: 10px; }
+  .mobile-nav.is-open {
+    display: block;
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
 
 @media (max-width: 640px) {
   .site-wrap header {
@@ -670,10 +689,7 @@ section.project3 a.cover {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-transition: margin-right .5s;
-    -o-transition: margin-right .5s;
-    transition: margin-right .5s; }
+            justify-content: flex-start; }
     .site-wrap header .logo {
       padding: 0 10px 10px 60px;
       height: 70px; }
@@ -681,17 +697,7 @@ section.project3 a.cover {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
-      display: flex; }
-  .site-wrap .mobile-nav.is-open {
-    display: block;
-    -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-            transform: translateX(0%); }
-  .site-wrap header.is-open {
-    margin-right: 141px;
-    width: auto;
-    right: 0;
-    left: 0; } }
+      display: flex; } }
 
 .main-content section.intro {
   padding-bottom: 23px; }
@@ -898,7 +904,13 @@ h1.finalscreens {
   p.dash-gif {
     margin-top: 10px; }
   p.message-box {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .main-content section.project1-page,
+  .main-content section.project2-page,
+  .main-content section.project3-page {
+    padding-top: 10px; }
+  h1.finalscreens {
+    margin-top: 0; } }
 
 section.project2-page p {
   font-size: 14px;
@@ -926,7 +938,6 @@ h1.affinitymap {
   overflow: hidden;
   text-indent: 101%;
   white-space: nowrap;
-  width: 100%;
   height: 500px;
   margin: auto;
   background-image: url(/assets/img/affinitymap.png);
@@ -938,13 +949,167 @@ h1.affinitymap {
 p.slideshow {
   margin-top: 100px; }
 
+iframe {
+  display: block;
+  margin-left: 20px; }
+
+@media (max-width: 1050px) {
+  iframe {
+    height: 400px; } }
+
 @media (max-width: 640px) {
   p.slideshow {
     margin: 20px auto; }
   h1.affinitymap {
-    height: 300px; }
+    height: 300px;
+    margin-top: 20px; }
   iframe {
-    height: 335px; } }
+    height: 335px;
+    margin: auto; } }
+
+section.project3-page p {
+  font-size: 14px;
+  text-align: left; }
+
+section.project3-page .col-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+section.project3-page .blurb {
+  font-style: italic;
+  text-align: center; }
+
+section.project3-page iframe {
+  display: block; }
+
+section.project3-page p.vimeo {
+  margin-top: 10px;
+  text-align: center; }
+
+section.project3-page p.prototype {
+  margin-top: 100px; }
+
+h1.bc-mac {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  max-width: 640px;
+  height: 350px;
+  margin-top: 0;
+  background-image: url(/assets/img/bc-mac.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.persona1 {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  max-width: 300px;
+  height: 200px;
+  margin-top: 0;
+  background-image: url(/assets/img/persona.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.persona2 {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  max-width: 300px;
+  height: 200px;
+  margin-top: 0;
+  background-image: url(/assets/img/persona2.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.styleguide {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  height: 350px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-image: url(/assets/img/styleguide.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.sitemap {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  max-width: 300px;
+  height: 200px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-image: url(/assets/img/sitemap.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+.flex.sitemap {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+h1.wireframes {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  max-width: 300px;
+  height: 200px;
+  margin: 0;
+  background-image: url(/assets/img/wireframes.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+p.wireframes {
+  padding-top: 20px; }
+
+h1.mockups {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  height: 400px;
+  margin-bottom: 10px;
+  background-image: url(/assets/img/mockups.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+@media (max-width: 640px) {
+  h1.bc-mac {
+    height: 300px; }
+  h1.persona1 {
+    margin-top: 20px; }
+  h1.styleguide {
+    margin-top: 20px; }
+  h1.wireframes {
+    margin-bottom: 0; }
+  section.project3-page p.wireframes {
+    margin-top: 0;
+    text-align: center; }
+  section.project3-page p.mockups {
+    text-align: center; }
+  section.project3-page p.prototype {
+    margin-top: 0;
+    text-align: center; } }
 
 .site-wrap {
   display: -webkit-box;

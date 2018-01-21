@@ -12,6 +12,15 @@
     display: flex
     flex-direction: column
 
+    transition: all 0.3s ease-in-out
+
+    &.is-open
+      margin-right: 141px
+      width: auto
+      right: 0
+      left: 0
+      transition: all 0.3s ease-in-out
+
     .logo
       +hide-text
       height: 80px
@@ -85,6 +94,11 @@
     text-align: right
     margin-bottom: 10px
 
+  &.is-open
+    display: block
+    transform: translateX(0%)
+    transition: all 0.3s ease-in-out
+
 
 @media (max-width: 640px)
   .site-wrap
@@ -100,8 +114,6 @@
       flex-direction: row
       align-items: center
       justify-content: flex-start
-      //transition: all 0.3s ease-in-out
-      transition: margin-right .5s
 
       .logo
         padding: 0 10px 10px 60px
@@ -109,13 +121,3 @@
 
       .mobile-nav-toggle
         display: flex
-
-    .mobile-nav.is-open
-      display: block
-      transform: translateX(0%)
-
-    header.is-open
-      margin-right: 141px
-      width: auto
-      right: 0
-      left: 0
