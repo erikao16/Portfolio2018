@@ -40,3 +40,6 @@ $(document).ready(function() {
     }
   });
 });
+
+// work link is active upon visiting site
+$(document).getElementById('focusmeplease').focus();
