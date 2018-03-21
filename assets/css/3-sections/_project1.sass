@@ -3,123 +3,168 @@ section.project1-page
     font-size: 14px
     text-align: left
 
+  p.affinity
+    text-align: center
+    margin: 10px auto 30px auto
+
   .col-1
     display: flex
     align-items: center
+    padding-top: 20px
 
   .blurb
     font-style: italic
     text-align: center
 
-h1.big
-  text-align: center
+  p.leadership
+    padding-top: 40px
 
-h1.onboarding
+h1.affinitymap
   +hide-text
-  max-width: 620px
-  height: 200px
+  height: 500px
+  margin: auto
+  background:
+    image: url(/assets/img/affinitymap.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.leadership
+  +hide-text
+  width: 300px
+  height: 700px
   margin: 0
   background:
-    image: url(/assets/img/onboarding.png)
+    image: url(/assets/img/leadership-sketch.png)
     position: center
     size: contain
     repeat: no-repeat
 
-h1.fiveviews
+h1.leadership1
   +hide-text
-  max-width: 500px
-  height: 375px
+  width: 300px
+  height: 300px
   margin: 0
   background:
-    image: url(/assets/img/fivescreens.png)
+    image: url(/assets/img/leadership-sketch-part1.png)
     position: center
     size: contain
     repeat: no-repeat
 
-p.fiveviews
-  margin-top: 10px
-
-.userflow
+h1.leadership2
   +hide-text
-  max-width: 300px
-  height: 225px
-  margin-top: 0
+  width: 300px
+  height: 300px
+  margin: 0
   background:
-    image: url(/assets/img/UserFlow.png)
+    image: url(/assets/img/leadership-sketch-part2.png)
     position: center
-    repeat: no-repeat
     size: contain
+    repeat: no-repeat
 
-h1.dash-gif
+h1.leadership3
   +hide-text
-  max-width: 275px
-  height: 480px
+  width: 300px
+  height: 300px
+  margin: 0
   background:
-    image: url(/assets/img/dash.gif)
+    image: url(/assets/img/leadership-sketch-part3.png)
     position: center
-    repeat: no-repeat
     size: contain
+    repeat: no-repeat
 
-p.dash-gif
-  margin-top: 200px
-
-h1.message-box
+h1.mysketch
   +hide-text
-  max-width: 300px
-  height: 200px
+  width: 300px
+  height: 300px
+  margin: 0
   background:
-    image: url(/assets/img/messagebox.png)
+    image: url(/assets/img/landing-sketch.jpg)
     position: center
-    repeat: no-repeat
     size: contain
+    repeat: no-repeat
 
-p.message-box
-  margin-top: 50px
-
-h1.finalscreens
+h1.landing-initial
   +hide-text
+  width: 300px
   height: 400px
-  margin-bottom: 10px
+  margin: 0
   background:
-    image: url(/assets/img/threescreens.png)
+    image: url(/assets/img/landing-initial-wf.png)
     position: center
-    repeat: no-repeat
     size: contain
+    repeat: no-repeat
 
-@media (max-width: 760px)
-  h1.fiveviews
-    max-width: 400px
-    height: 330px
+h1.wf2
+  +hide-text
+  width: 300px
+  height: 400px
+  margin: 0
+  background:
+    image: url(/assets/img/landing-wf-2.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.wf3
+  +hide-text
+  width: 300px
+  height: 400px
+  margin: 0
+  background:
+    image: url(/assets/img/landing-wf-3.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.final-landing
+  +hide-text
+  width: 300px
+  height: 400px
+  margin: 0
+  background:
+    image: url(/assets/img/landing-final.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+h1.final-landing-solo
+  +hide-text
+  width: 300px
+  height: 400px
+  margin: 0
+  background:
+    image: url(/assets/img/landing-final-solo.png)
+    position: center
+    size: contain
+    repeat: no-repeat
+
+p.final-landing
+  padding-top: 20px
+  margin-bottom: 10px
+
+p.slideshow
+  margin-top: 100px
+
+h1.big
+  margin-top: 20px
+
+iframe
+  display: block
+  margin-left: 20px
+
+@media (max-width: 1050px)
+  iframe
+    height: 400px
 
 @media (max-width: 640px)
-  p.blurb
-    margin-bottom: 15px
+  p.slideshow
+    margin: 20px auto
 
-  .userflow
+  h1.affinitymap
+    height: 300px
     margin-top: 20px
 
-  h1.fiveviews
-    margin-top: 30px
-    margin-left: auto
-    margin-right: auto
-
-  .userflow
-    margin-bottom: 0
-
-  h1.dash-gif
-    margin-bottom: 10px
-
-  p.dash-gif
-    margin-top: 10px
-
-  p.message-box
-    margin-top: 10px
-
-  .main-content
-    section.project1-page,
-    section.project2-page,
-    section.project3-page
-      padding-top: 10px
-
-  h1.finalscreens
-    margin-top: 0
+  iframe
+    height: 335px
+    margin: auto

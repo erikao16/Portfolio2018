@@ -509,11 +509,11 @@ body {
   width: 300px;
   height: 300px;
   margin: 0;
-  background-image: url(/assets/img/sscover.png);
+  background-image: url(/assets/img/tDXcover.png);
   background-position: center; }
 
 section.project2 a.cover {
-  background-image: url(/assets/img/tDXcover.png); }
+  background-image: url(/assets/img/sscover.png); }
 
 section.project3 a.cover {
   background-image: url(/assets/img/BCcover.png); }
@@ -716,10 +716,11 @@ section.illustration h1 {
 section.illustration p {
   max-width: 347px; }
 
-.gallery {
+section.illustration a {
   overflow: hidden;
   text-indent: 101%;
   white-space: nowrap;
+  width: 849px;
   height: 195px;
   background-image: url(/assets/img/art.png);
   -webkit-background-size: contain;
@@ -782,7 +783,203 @@ section.project1-page p {
   font-size: 14px;
   text-align: left; }
 
+section.project1-page p.affinity {
+  text-align: center;
+  margin: 10px auto 30px auto; }
+
 section.project1-page .col-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px; }
+
+section.project1-page .blurb {
+  font-style: italic;
+  text-align: center; }
+
+section.project1-page p.leadership {
+  padding-top: 40px; }
+
+h1.affinitymap {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  height: 500px;
+  margin: auto;
+  background-image: url(/assets/img/affinitymap.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.leadership {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 700px;
+  margin: 0;
+  background-image: url(/assets/img/leadership-sketch.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.leadership1 {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  background-image: url(/assets/img/leadership-sketch-part1.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.leadership2 {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  background-image: url(/assets/img/leadership-sketch-part2.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.leadership3 {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  background-image: url(/assets/img/leadership-sketch-part3.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.mysketch {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  background-image: url(/assets/img/landing-sketch.jpg);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.landing-initial {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  background-image: url(/assets/img/landing-initial-wf.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.wf2 {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  background-image: url(/assets/img/landing-wf-2.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.wf3 {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  background-image: url(/assets/img/landing-wf-3.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.final-landing {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  background-image: url(/assets/img/landing-final.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.final-landing-solo {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  background-image: url(/assets/img/landing-final-solo.png);
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+p.final-landing {
+  padding-top: 20px;
+  margin-bottom: 10px; }
+
+p.slideshow {
+  margin-top: 100px; }
+
+h1.big {
+  margin-top: 20px; }
+
+iframe {
+  display: block;
+  margin-left: 20px; }
+
+@media (max-width: 1050px) {
+  iframe {
+    height: 400px; } }
+
+@media (max-width: 640px) {
+  p.slideshow {
+    margin: 20px auto; }
+  h1.affinitymap {
+    height: 300px;
+    margin-top: 20px; }
+  iframe {
+    height: 335px;
+    margin: auto; } }
+
+section.project2-page p {
+  font-size: 14px;
+  text-align: left; }
+
+section.project2-page .col-1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -792,7 +989,7 @@ section.project1-page .col-1 {
       -ms-flex-align: center;
           align-items: center; }
 
-section.project1-page .blurb {
+section.project2-page .blurb {
   font-style: italic;
   text-align: center; }
 
@@ -911,61 +1108,6 @@ h1.finalscreens {
     padding-top: 10px; }
   h1.finalscreens {
     margin-top: 0; } }
-
-section.project2-page p {
-  font-size: 14px;
-  text-align: left; }
-
-section.project2-page p.affinity {
-  text-align: center;
-  margin: 10px auto 30px auto; }
-
-section.project2-page .col-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-section.project2-page .blurb {
-  font-style: italic;
-  text-align: center; }
-
-h1.affinitymap {
-  overflow: hidden;
-  text-indent: 101%;
-  white-space: nowrap;
-  height: 500px;
-  margin: auto;
-  background-image: url(/assets/img/affinitymap.png);
-  background-position: center;
-  -webkit-background-size: contain;
-          background-size: contain;
-  background-repeat: no-repeat; }
-
-p.slideshow {
-  margin-top: 100px; }
-
-iframe {
-  display: block;
-  margin-left: 20px; }
-
-@media (max-width: 1050px) {
-  iframe {
-    height: 400px; } }
-
-@media (max-width: 640px) {
-  p.slideshow {
-    margin: 20px auto; }
-  h1.affinitymap {
-    height: 300px;
-    margin-top: 20px; }
-  iframe {
-    height: 335px;
-    margin: auto; } }
 
 section.project3-page p {
   font-size: 14px;
@@ -1110,6 +1252,17 @@ h1.mockups {
   section.project3-page p.prototype {
     margin-top: 0;
     text-align: center; } }
+
+h1.sailaway {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 500px;
+  background-image: url(/assets/img/sailawayFINAL.pdf);
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
 
 .site-wrap {
   display: -webkit-box;
