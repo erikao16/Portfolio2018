@@ -550,6 +550,14 @@ section.project3 a.cover {
   .inline:hover, .inline:focus {
     color: #949494; }
 
+.illustration-link {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: #616161;
+  margin-left: auto;
+  margin-right: auto; }
+
 .site-wrap header {
   max-width: 1050px;
   background: white;
@@ -707,21 +715,19 @@ section.project3 a.cover {
     margin: 0;
     line-height: 36px; }
 
-section.illustration h1 {
-  font-size: 24px;
-  text-align: center;
-  font-weight: bold;
-  color: #616161; }
-
 section.illustration p {
   max-width: 347px; }
 
-section.illustration a {
+.illustration-link {
+  display: block;
+  margin: auto; }
+
+.gallery {
   overflow: hidden;
   text-indent: 101%;
   white-space: nowrap;
-  width: 849px;
-  height: 195px;
+  max-width: 849px;
+  height: 177px;
   background-image: url(/assets/img/art.png);
   -webkit-background-size: contain;
           background-size: contain;
@@ -1258,11 +1264,94 @@ h1.sailaway {
   text-indent: 101%;
   white-space: nowrap;
   width: 300px;
-  height: 500px;
-  background-image: url(/assets/img/sailawayFINAL.pdf);
+  height: 350px;
+  margin-top: 0;
+  background-image: url(/assets/img/sailaway.png);
   -webkit-background-size: contain;
           background-size: contain;
   background-repeat: no-repeat; }
+
+h1.nancy-liang {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 200px;
+  margin-top: 0;
+  background-image: url(/assets/img/nancyliang.png);
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.bigthief {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  max-width: 849px;
+  height: 300px;
+  margin-bottom: 2px;
+  background-image: url(/assets/img/bigthief.png);
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+p.bigthief {
+  font-size: 14px; }
+
+h1.familyequality {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 400px;
+  margin-top: 0;
+  background-image: url(/assets/img/FamilyWeek.png);
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.shrimp {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 300px;
+  background-image: url(/assets/img/shrimp.png);
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.barb {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  background-image: url(/assets/img/barbtriptic.png);
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+h1.avatar {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-image: url(/assets/img/avatar.png);
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-repeat: no-repeat; }
+
+@media (max-width: 640px) {
+  h1.sailaway, h1.nancy-liang, h1.familyequality {
+    margin-bottom: 2px; }
+  h1.nancy-liang, h1.familyequality {
+    margin-top: 10px; }
+  h1.bigthief {
+    height: 250px; } }
 
 .site-wrap {
   display: -webkit-box;
